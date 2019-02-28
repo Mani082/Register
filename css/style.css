@@ -2,7 +2,7 @@
 /* 	mobile 90% event  */
 .grid-container {
 	max-width: 100em;
-	margin: 2rem auto;
+	margin: 2rem auto 5%;
 	padding: 2%;
 	height: 100%;
 	display: flex;
@@ -13,7 +13,7 @@
 .grid-item {
   width: 90%;
   float: none;
-  margin: 5% auto;	
+  margin-bottom: 5%;	
 }
 
 /*  440/16 = 27.5 */
