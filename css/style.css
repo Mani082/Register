@@ -13,14 +13,7 @@
 .grid-item {
   width: 90%;
   float: none;
-  margin-bottom: 5% auto;	
-}
-
-/*  440/16 = 27.5 */
-@media screen and (min-width: 27.5rem) {
-	.grid-item {
-  	width: 70%;
-	}
+  margin: 5% auto;	
 }
 
 @supports (display: grid) {
@@ -33,6 +26,13 @@
 	.grid-item {
 		grid-column: span 1;
 		grid-row: auto;
+	}
+}
+
+/*  440/16 = 27.5 */
+@media screen and (min-width: 27.5rem) {
+	.grid-item {
+  	width: 70%;
 	}
 }
 
@@ -635,5 +635,3 @@ h1 {
 	font-size: 300%;
 	padding:2%;
 }
-
-
